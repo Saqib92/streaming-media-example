@@ -1,5 +1,7 @@
 {
   "name": "streaming-media-example",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

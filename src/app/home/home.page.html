@@ -8,7 +8,8 @@
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <ion-button (click)="playStreaming('http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4')">Play https url</ion-button>
+    <ion-button (click)="playStreaming('assets/videos/SampleVideo.mp4')">Play Local File </ion-button>
+    <ion-button (click)="playStreaming('rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov')">Play RTSP url </ion-button>
   </div>
 </ion-content>
